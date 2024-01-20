@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Jack</title>
+  <link rel="stylesheet" href="./blackjack.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <h1><span id="result-Message">Let's Play</span></h1>
+
+    <div class="Two-box">
+      <div class="box-1">
+        <h2>You: <span id="box-1-result">0</span></h2>
+      </div>
+      <div class="box-2">
+        <h2>Dealer: <span id="box-2-result">0</span></h2>
+      </div>
+    </div>
+    <div class="btns">
+      <button class="btn-1">Hit</button>
+      <button class="btn-2">Stand</button>
+      <button class="btn-3">Deal</button>
+    </div>
+    <div class="result">
+      <table>
+        <tr>
+          <th>Wins</th>
+          <th>Losses</th>
+          <th>Draws</th>
+        </tr>
+        <tr>
+          <td><span id="Wins"></span>0</td>
+          <td><span id="Losses"></span>0</td>
+          <td><span id="Draws"></span>0</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="./blackjack.js"></script>
+</body>
+
+</html>

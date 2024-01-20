@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+}
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+h1 {
+
+    font-size: 50px;
+}
+
+.Two-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.Two-box {
+    background-image: url(./assets/istockphoto-1218355494-612x612.jpg);
+    color: #ffff;
+    font-weight: 700;
+}
+
+.Two-box div {
+    border: 1px solid brown;
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+    height: 400px;
+}
+
+.Two-box img {
+    width: 25%;
+    padding: 10px;
+}
+
+.btns {
+    background-image: url(./assets/istockphoto-1218355494-612x612.jpg);
+}
+
+.btn-1 {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-2 {
+    background-color: rgb(221, 162, 13);
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-3 {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+
+.result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+table,
+td,
+th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.btn-1:hover {
+    background-color: rgb(15, 177, 185);
+}
+
+.btn-2:hover {
+    background-color: rgb(225, 233, 60);
+}
+
+.btn-3:hover {
+    background-color: rgb(238, 76, 22);
+}
